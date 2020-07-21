@@ -36,8 +36,7 @@ mvn install
 docker build -f Dockerfile -t eureka-service
 docker run -p 8099:8099 --name eureka-service eureka-service
 ```
-7. Change the name and port according to each repository, you can check it from the `config-data` directory in [project2-config](https://github.com/dmendozy/project2-config)
-8. After create all images and container, use docker compose to start all services from project2-config
+7. After create all images and container, use docker compose to start all services from project2-config
 ```
 docker-compose up
 ```
